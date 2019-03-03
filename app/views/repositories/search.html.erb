@@ -9,7 +9,7 @@
     <p><%= @error %></p>
   <% elsif @repos %>
     <ul>
-    <% @venues.each do |venue| %>
+    <% @repos.each do |venue| %>
       <li>
         <%= venue["name"] %><br>
         <%= venue["location"]["address"] %><br>
