@@ -11,7 +11,7 @@
     <ul>
     <% @repos.each do |repo| %>
       <li>
-        Checkins: <%= repo %>
+        owner: <%= repo.owners %>
       </li>
     <% end %>
     </ul>
